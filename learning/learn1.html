@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input and Display</title>
+</head>
+<body>
+    <label for="userInput">输入内容：</label>
+    <input type="text" id="userInput" oninput="updateContent()" placeholder="在此输入内容">
+    <p id="displayContent"></p>
+    <input>
+    <script>
+        // Function to update the content and store it in localStorage
+        function updateContent() {
+            const input = document.getElementById('userInput').value;
+            document.getElementById('displayContent').textContent = input;
+            localStorage.setItem('savedContent', input);
+        }
+
+        // Function to load the content from localStorage when the page loads
+        function loadContent() {
+            const savedContent = localStorage.getItem('savedContent');
+            if (savedContent) {
+                document.getElementById('userInput').value = savedContent;
+                document.getElementById('displayContent').textContent = savedContent;
+            }
+        }
+
+        // Load content when the page is loaded
+        window.onload = loadContent;
+    </script>
+</body>
+</html>
