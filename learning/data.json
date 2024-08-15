@@ -1,0 +1,9 @@
+{
+    "title": "Welcome to My Site",
+    "description": "This is a simple example of using fetch to load JSON data.",
+    "items": [
+        "Item 1",
+        "Item 2",
+        "Item 3"
+    ]
+}
