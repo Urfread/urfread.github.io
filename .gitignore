@@ -4,3 +4,11 @@ _site/
 .idea
 *.swp
 .Trashes
+un-finished/
+.vscode/
+.bundle/
+.sass-cache/
+.jekyll-cache/
+.jekyll-cache-*
+.sass-cache/
+.sass-cache-*
