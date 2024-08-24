@@ -2,7 +2,7 @@
 layout: post
 title: RestTemplate入门2
 date: 2024-08-23
-tags: [spring,微服务]
+tags: [Spring,微服务]
 ---
 
 # 怎么启动两个spring服务的时候，让一个服务调用另一个服务？
