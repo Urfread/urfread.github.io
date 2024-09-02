@@ -2,7 +2,7 @@
 layout: post
 title: ResultData包装类
 date: 2024-08-24
-tags: Java、Spring  
+tags: [Java,Spring,参考]
 ---
 ## `ResultData.java`
 ```java

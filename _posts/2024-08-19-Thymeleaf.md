@@ -5,6 +5,7 @@ summary: 熟悉thymeleaf、拦截器、jpa和mybatis的使用
 date: 2024-08-19
 tags: Spring   
 ---
+> 本来是因为不会解决跨域问题，所以才来用Thymleaf。结果突然就会解决了。
 
 ## 入门案例
 ### 引入依赖
